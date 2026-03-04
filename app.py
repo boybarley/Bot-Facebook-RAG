@@ -13,7 +13,7 @@ load_dotenv()
 PAGE_ACCESS_TOKEN = os.getenv("PAGE_ACCESS_TOKEN")
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
 DB_PATH = "db_faiss"
-LLM_MODEL = "llama3"
+LLM_MODEL = "phi3"
 EMBEDDING_MODEL = "nomic-embed-text"
 
 app = Flask(__name__)
